@@ -1,3 +1,5 @@
+# 配置webstorm 插件
+.ignore Coderpillr Theme WakaTime
 ## 配置npm
 ```javascript
     npx create-react-app part1

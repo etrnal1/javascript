@@ -1,0 +1,20 @@
+/*property:value的形式为HTMl元素设置背景图片 一般应空格来分割多个属性值*/
+#box{
+    property:value;
+}
+/*最常用的方式*/
+/*property:value;*/
+/*property:value,value2,value3*/
+/*property:value value value*/
+/*计算px*/
+/*property:calc(value[px])*/
+
+
+/*标签背景 应用黑色 其他所有应用都自动继承黑色*/
+body{
+    background: black;
+    color:white;
+}
+footer{
+    color:green;
+}

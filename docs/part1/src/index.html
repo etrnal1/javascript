@@ -2,17 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>欢迎访问我的网站</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<article>Amazing article </article>
   <h1>hello world</h1>
 <button>press Me</button>
+style.css 中的css 样式将被应用于本页面
 
 </body>
+<footer>2018 copyright.</footer>
 <script>
     const button = document.querySelector('button')
+    const element =document.createElement('div');
+
+    var count =0;
+    for(index in element.style) count++;
+    console.log(count)
+    console.log('hello')
     button.onclick=function(){
-    alert(134)
+    alert('Hello Msg')
     }
 </script>
 </html>
